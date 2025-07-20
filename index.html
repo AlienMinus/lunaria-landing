@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUNARIA - Explore the Moon</title>
+    <link rel="icon" href="images/moon-logo.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 🛰️ Navbar -->
+    <nav class="navbar">
+      <h1 class="navbar-logo">
+        <img
+          src="images/moon-logo.png"
+          alt="Lunaria Moon Logo"
+          style="height: 50px; border-radius: 50%; box-shadow: 0 0 20px #00fff7"
+        />
+        <a
+          href="#hero"
+          style="
+            font-weight: bold;
+            font-size: 2em;
+            letter-spacing: 2px;
+            color: #a1d2d1;
+            text-decoration: none;
+            padding: 0 10px;
+            text-shadow: 0 0 1px #00fff7, 0 0 1px #00fff7, 0 0 24px #00fff7;
+          "
+          >LUNARIA</a
+        >
+      </h1>
+      <ul class="navbar-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#book">Book</a></li>
+      </ul>
+
+      <!-- Place this inside your <nav class="navbar"> ... -->
+      <div class="navbar-toggle" id="navbar-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+   
+    <!-- 🚀 Hero Section -->
+    <section class="hero" id="hero">
+      <h1 class="glitch" data-text="LUNARIA">LUNARIA</h1>
+      <p class="tagline">Experience the Moon like never before</p>
+      <a href="#book" class="cta">Book Your Seat</a>
+    </section>
+
+    <!-- 🌌 Gallery Section -->
+    <section class="gallery" id="gallery">
+      <!-- Visual image -->
+
+      <div class="moon-carousel">
+        <button class="carousel-btn prev">&#8592;</button>
+        <div class="carousel-window">
+          <div class="carousel-track">
+            <img src="images/moon1.png" alt="Moon 1" />
+            <img src="images/moon2.png" alt="Moon 2" />
+            <img src="images/moon3.png" alt="Moon 3" />
+            <img src="images/moon4.png" alt="Moon 4" />
+            <img src="images/moon5.png" alt="Moon 5" />
+            <img src="images/moon6.png" alt="Moon 6" />
+          </div>
+        </div>
+        <button class="carousel-btn next">&#8594;</button>
+      </div>
+      <h2>Gallery</h2>
+      <p>Explore stunning visuals of our lunar missions.</p>
+    </section>
+
+    <!-- 🌕 About Section -->
+    <!-- 🌕 About Section -->
+    <section class="about" id="about">
+      <div class="about-timeline-row">
+        <!-- About Column -->
+        <div class="about-col">
+          <h3 style="padding: 8px">About Lunaria</h3>
+          <p style="text-align: justify; margin-bottom: 20px; font-size: 1em">
+            At LunarX, we are pioneers in the realm of interstellar tourism,
+            transforming the dream of space travel into an accessible reality.
+            Our mission is to take you beyond Earth's boundaries, offering
+            immersive and unforgettable lunar experiences for adventurous souls
+            and visionaries alike. From orbital expeditions to surface walks and
+            luxury stays in zero gravity, we ensure each journey is safe,
+            spectacular, and tailored to redefine your perspective of the
+            universe. With cutting-edge spacecrafts, expert astronauts, and
+            world-class hospitality, LunarX is not just a trip—it's a giant leap
+            in your personal journey through space.
+          </p>
+        </div>
+        <!-- Timeline Column -->
+        <div class="timeline-col">
+          <h3>Mission Timeline</h3>
+          <table class="mission-timeline">
+            <tr>
+              <td>
+                <strong>2024:</strong> LunarX founded with a vision to
+                commercialize lunar travel.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>2025:</strong> First successful orbital demo with a
+                crewed capsule.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>2026:</strong> Launch of Lunar Orbit Experience with
+                private clients.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>2027:</strong> Moon Surface Walk mission launched for
+                trained tourists.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>2028:</strong> Deployment of the Luxury Orbital Suite
+                (LOS) hotel capsule.
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- Astronauts in a single row below -->
+      <h3 style="text-align: center; margin-top: 36px">Meet Our Astronauts</h3>
+      <div class="astronaut-profiles-row">
+        <div class="astronaut-card">
+          <img src="images/astro1.png" alt="Commander Ava" />
+          <h4>Commander Ava Carter</h4>
+          <p>
+            Veteran astronaut and lead mission commander with over 250 days in
+            space.
+          </p>
+        </div>
+        <div class="astronaut-card">
+          <img src="images/astro2.png" alt="Pilot Rajiv" />
+          <h4>Pilot Rajiv Kapoor</h4>
+          <p>
+            Expert spacecraft pilot with precision lunar landing training and 18
+            missions.
+          </p>
+        </div>
+        <div class="astronaut-card">
+          <img src="images/astro3.png" alt="Scientist Mei" />
+          <h4>Dr. Mei Tanaka</h4>
+          <p>
+            Astrobiologist and mission scientist, ensuring safety and innovation
+            onboard.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🛸 Services Section -->
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+      <table class="services-table">
+        <tr>
+          <td>Zero-Gravity Experiences</td>
+          <td>Lunar Surface Walks</td>
+          <td>Orbital Dining</td>
+        </tr>
+        <tr>
+          <td>Luxury Space Suites</td>
+          <td>Spacecraft Training</td>
+          <td>24/7 Astronaut Support</td>
+        </tr>
+        <tr>
+          <td>Customizable Itineraries</td>
+          <td>Pre-Flight Health Checks</td>
+          <td>Post-Mission Debriefing</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Booking Button (Triggers Popup) -->
+    <section class="booking" id="book">
+      <h2>Reserve Your Mission</h2>
+      <p>Click the button below to pre-register for the Moon trip.</p>
+
+      <label for="form-toggle" class="cta">Open Booking Form</label>
+    </section>
+
+    <!-- Hidden Toggle Checkbox -->
+    <input type="checkbox" id="form-toggle" hidden />
+
+    <!-- Booking Popup Modal -->
+    <div class="form-popup">
+      <div class="form-box">
+        <label for="form-toggle" class="close-btn">✖</label>
+        <h3>Mission Booking</h3>
+        <form class="booking-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Email Address" required />
+          <input type="tel" placeholder="Phone Number" required />
+          <select required>
+            <option value="">Select Package</option>
+            <option value="lunar-orbit">Lunar Orbit</option>
+            <option value="moonwalk">Moon Surface Walk</option>
+            <option value="lux">Luxury Orbital Suite</option>
+          </select>
+          <textarea placeholder="Any special requests?" rows="3"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- 🧠 Floating AI Assistant -->
+    <!-- 🔘 Chat Toggle -->
+    <input type="checkbox" id="chat-toggle" hidden />
+    <label for="chat-toggle" class="ai-assistant">🤖</label>
+
+    <!-- 💬 Chat Bubble -->
+    <div class="chat-popup">
+      <div id="chat-messages">
+        <p>
+          <strong>Lunaria AI:</strong> Hello, astronaut! How can I help you?
+        </p>
+        <p>💡 Type of questions I can help with:</p>
+        <ul>
+          <li>🌕 Tour details</li>
+          <li>📅 Booking status</li>
+          <li>🚀 Mission schedules</li>
+          <li>🌌 Space travel tips</li>
+          <li>❓ General inquiries</li>
+        </ul>
+      </div>
+      <form
+        id="chat-form"
+        autocomplete="off"
+        style="display: flex; gap: 8px; margin-top: 10px"
+      >
+        <input
+          type="text"
+          id="chat-input"
+          placeholder="Type your question..."
+          style="flex: 1"
+          required
+        />
+        <button type="submit" class="cta">Send</button>
+      </form>
+      <div class="cta" onclick="exportBookingsToCSV()">
+        Export Bookings as CSV
+      </div>
+    </div>
+
+    <!-- 🌌 Footer -->
+    <footer>
+      <p>© 2025 LUNARIA. All Rights Reserved.</p>
+      <div class="socials">
+        <a href="#">🌐</a>
+        <a href="#">📧</a>
+        <a href="#">📞</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <!-- Add this just before the closing </body> tag -->
+    <a href="#hero" class="floating-home-btn" title="Back to Top">
+      <span>🏠</span>
+    </a>
+  </body>
+</html>

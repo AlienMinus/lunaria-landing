@@ -1,0 +1,94 @@
+[
+  {
+    "keywords": ["hello", "hi", "hey", "greetings"],
+    "answer": "Hello, astronaut! 👋 How can I assist you today?"
+  },
+  {
+    "keywords": ["good morning", "morning"],
+    "answer": "Good morning! ☀️ Wishing you a stellar start to your day. The current time is {{time}}."
+  },
+  {
+    "keywords": ["good afternoon", "afternoon"],
+    "answer": "Good afternoon! 🌗 Hope your day is going well. The current time is {{time}}."
+  },
+  {
+    "keywords": ["good evening", "evening"],
+    "answer": "Good evening! 🌙 Ready for some lunar adventures? The current time is {{time}}."
+  },
+  {
+    "keywords": ["good night", "night"],
+    "answer": "Good night! 🌌 Rest well and dream of the stars. The current time is {{time}}."
+  },
+  {
+    "keywords": ["thank you", "thanks", "thx", "thank"],
+    "answer": "You're welcome! 🚀 If you have more questions, please feel free to ask."
+  },
+  {
+    "keywords": ["welcome", "you are welcome"],
+    "answer": "Always happy to help! 😊"
+  },
+  {
+    "keywords": ["tour", "details", "trip", "package"],
+    "answer": "We offer Lunar Orbit, Moon Surface Walk, and Luxury Orbital Suite packages. Each includes training, accommodation, and guided experiences."
+  },
+  {
+    "keywords": ["booking", "status", "reservation", "register"],
+    "answer": "To check your booking status, please provide your registered email or contact our support team."
+  },
+  {
+    "keywords": ["mission", "schedule", "timeline", "launch"],
+    "answer": "Upcoming missions: 2026 - Lunar Orbit Experience, 2027 - Moon Surface Walk, 2028 - Luxury Orbital Suite deployment."
+  },
+  {
+    "keywords": ["space", "travel", "tips", "prepare", "training"],
+    "answer": "Prepare by maintaining good health, following our training program, and packing light. We'll guide you through every step!"
+  },
+  {
+    "keywords": ["contact", "support", "help", "email", "phone"],
+    "answer": "You can reach us via the contact links at the bottom of this page or email support@lunaria.com."
+  },
+  {
+    "keywords": ["about", "lunaria", "company", "who"],
+    "answer": "Lunaria is a pioneer in interstellar tourism, making lunar travel accessible, safe, and unforgettable for everyone."
+  },
+  {
+    "keywords": ["price", "cost", "fee", "charges", "how much"],
+    "answer": "Pricing varies by package: Lunar Orbit starts at $250,000, Moon Surface Walk at $500,000, and Luxury Orbital Suite at $1,000,000. Contact us for detailed quotes."
+  },
+  {
+    "keywords": ["safety", "insurance", "risk", "safe", "secure"],
+    "answer": "Your safety is our top priority. All missions are insured and follow strict safety protocols with experienced astronauts and medical staff onboard."
+  },
+  {
+    "keywords": ["duration", "how long", "days", "length", "trip time"],
+    "answer": "Trips range from 5 days (Lunar Orbit) to 12 days (Luxury Orbital Suite). Each package includes pre-flight training and post-mission recovery."
+  },
+  {
+    "keywords": ["food", "meals", "dining", "eat", "cuisine"],
+    "answer": "Enjoy gourmet meals designed by top chefs, with options for various dietary needs. All food is prepared for space travel and served fresh."
+  },
+  {
+    "keywords": ["age", "requirement", "limit", "old", "young"],
+    "answer": "Participants must be between 18 and 65 years old and pass a basic medical screening. Contact us for exceptions or special cases."
+  },
+  {
+    "keywords": ["refund", "cancel", "cancellation", "policy"],
+    "answer": "You can cancel up to 60 days before launch for a full refund. See our cancellation policy for details or contact support for assistance."
+  },
+  {
+    "keywords": ["training", "preparation", "before", "ready"],
+    "answer": "All travelers undergo a 2-week training program covering safety, zero-gravity adaptation, and mission protocols before departure."
+  },
+  {
+    "keywords": ["accommodation", "stay", "hotel", "room", "suite"],
+    "answer": "Our orbital suites offer private rooms with Earth and Moon views, Wi-Fi, entertainment, and personal attendants for your comfort."
+  },
+  {
+    "keywords": ["wifi", "internet", "connect", "communication"],
+    "answer": "High-speed Wi-Fi and communication systems are available throughout your journey, so you can stay connected with loved ones."
+  },
+  {
+    "keywords": ["weather", "launch conditions", "delay", "postpone"],
+    "answer": "Launches may be delayed due to weather or technical checks. We keep you updated and provide accommodation if rescheduling is needed."
+  }
+]
