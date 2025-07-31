@@ -170,6 +170,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url('./images/Moon6.png');
+  background-repeat: no-repeat;
 }
 
 .hero p {
